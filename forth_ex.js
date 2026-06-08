@@ -21,4 +21,8 @@ All element orders should have an equal probability. For instance, [1,2,3] can b
 solution
 */
 
+let arr = [1, 2, 3];
 
+arr.sort((a,b) => Math.random()-0.5);
+
+console.log(arr);
